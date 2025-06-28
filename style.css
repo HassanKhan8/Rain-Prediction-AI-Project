@@ -1,0 +1,82 @@
+body {
+  background: #1e1e2f;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #2b2b3c;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.intro {
+  color: #aaa;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.fields-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-size: 0.85rem;
+  color: #ffcc00;
+  margin-bottom: 4px;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background: #3b3b54;
+  color: #fff;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ffcc00;
+  color: #222;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+button:hover {
+  background: #ffd633;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #ffcc00;
+  min-height: 1.5rem;
+  font-size: 1.2rem;
+}
